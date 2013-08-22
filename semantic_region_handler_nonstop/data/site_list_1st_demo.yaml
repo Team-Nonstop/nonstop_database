@@ -1,0 +1,58 @@
+-  
+  name: site1
+  frame_id: map
+  radius: 0.547
+  pose:
+      position:
+          x: 3.8
+          y: 2.21
+          z: 0
+      orientation:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+  
+-
+  name: site2
+  frame_id: map
+  radius: 0.483
+  pose:
+    position:
+      x: 1.33
+      y: 2.25
+      z: 0
+    orientation:
+      x: 0
+      y: 0
+      z: 0
+      w: 1
+-
+  name: site3
+  frame_id: map
+  radius: 0.252
+  pose:
+    position:
+      x: 1.91
+      y: 4.06
+      z: 0
+    orientation:
+      x: 0
+      y: 0
+      z: 0
+      w: 1
+-
+  name: pickup
+  frame_id: map
+  radius: 0.05
+  pose:
+    position:
+      x: 5.36
+      y: 0.74
+      z: 0
+    orientation:
+      x: 0
+      y: 0
+      z: 1
+      w: 0
+

@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="semantic_region_handler_nonstop" type="alvar_ar_publisher_from_file.py" name="alvar_ar_publisher" output="screen">
+         <param name="filename" type="string" value="$(find semantic_region_handler_nonstop)/data/ar_list.yaml" />
+    </node>
+    <node pkg="semantic_region_handler_nonstop" type="site_publisher_from_file.py" name="site_publisher" output="screen">
+         <param name="filename" type="string" value="$(find semantic_region_handler_nonstop)/data/site_list.yaml" />
+    </node>
+</launch>

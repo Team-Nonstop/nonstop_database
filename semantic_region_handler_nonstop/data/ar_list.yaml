@@ -1,0 +1,30 @@
+-  
+  name: landmark0
+  frame_id: map
+  id: 0
+  confidence: 100
+  pose:
+      position:
+          x: 1.75
+          y: -0.17
+          z: 0.3
+      orientation:
+          x: 0.0
+          y: 0.71
+          z: 0.71
+          w: 0.0
+-
+  name: landmark1
+  frame_id: map
+  id: 1
+  confidence: 100
+  pose:
+    position:
+      x: 0.58
+      y: -0.12
+      z: 0.3
+    orientation:
+      x: 0.0
+      y: 0.71
+      z: 0.71
+      w: 0.0

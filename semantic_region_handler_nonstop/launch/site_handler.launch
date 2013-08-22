@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="semantic_region_handler_nonstop" name="site_poller" type="site_poller.py">
+      <remap from="site_pose_list" to="semantic_map/site_pose_list"/>
+    </node>
+    <node pkg="semantic_region_handler_nonstop" name="site_handler" type="site_handler.py"/>
+</launch>

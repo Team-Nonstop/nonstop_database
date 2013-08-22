@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="semantic_region_handler_nonstop" type="site_loader.py" name="site_loader" output="screen">
+         <param name="filename" type="string" value="$(find semantic_region_handler_nonstop)/data/site_list.yaml" />
+    </node>
+</launch>

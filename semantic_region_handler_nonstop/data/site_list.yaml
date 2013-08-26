@@ -29,7 +29,7 @@
       w: 1
 
 -
-  name: pickup
+  name: reload
   frame_id: map
   radius: 0.05
   pose:

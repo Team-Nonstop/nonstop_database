@@ -12,7 +12,7 @@
           y: 0
           z: 0
           w: 1
-  
+
 -
   name: site2
   frame_id: map

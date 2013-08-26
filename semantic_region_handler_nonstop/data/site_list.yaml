@@ -12,7 +12,7 @@
           y: 0
           z: 0
           w: 1
-  
+
 -
   name: table2
   frame_id: map

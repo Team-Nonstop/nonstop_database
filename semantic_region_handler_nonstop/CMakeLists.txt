@@ -42,7 +42,7 @@ catkin_package(
 )
 
 install(PROGRAMS
-  scripts/circle_semantic_handler.py
+#  scripts/circle_semantic_handler.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
